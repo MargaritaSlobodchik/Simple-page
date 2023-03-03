@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'ShantellSans-Bold';
+	src: url('../font/ShantellSans-Bold.ttf');
+	font-weight: bold;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'ShantellSans-BoldItalic';
+	src: url('../font/ShantellSans-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'ShantellSans-Regular';
+	src: url('../font/ShantellSans-Regular.ttf');
+	font-weight: bold;
+	font-style: italic;
+}

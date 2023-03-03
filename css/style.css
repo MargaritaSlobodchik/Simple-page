@@ -1,0 +1,152 @@
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+body{
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.wrapper{
+	width: 100%;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 2rem;
+	width: 100%;
+
+}
+.nav-item{
+	display: inline-flex;
+	margin-left: 2.5rem;
+}
+.nav-item:first-child{
+	margin-left: 0;
+}
+.nav-link{
+	font-family: 'ShantellSans-Bold', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #160726e4;
+	text-transform: uppercase;
+	margin: 2rem;
+}
+.nav-link:hover{
+	color: #ffe735;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
+	}
+	.container{
+		max-width: 76.25rem;
+		margin: auto;
+	}
+	.sub-title{
+		font-family: 'ShantellSans-Italic', cursive;
+		font-size: 1.5rem;
+		text-align: center;
+		color: #333;
+		margin-bottom: 1.375rem;
+		line-height: 1.5rem;
+	}
+	.title{
+		font-size: 1.875rem;
+		font-family: 'ShantellSans-Bold', sans-serif;
+		color: #666666;
+		font-weight: bold;
+		line-height: 1.875rem;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 5.625rem;
+		position: relative;
+	}
+	.about__service{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.about__list{
+		flex-basis: 50%;
+		margin-bottom: 6rem;
+	}
+	.article{
+		display: flex;
+		justify-content: space-between;
+	}
+	.article__box-text{
+		flex-basis: 70%;
+		width: auto;
+	}
+	.article__img{
+		display: block;
+		align-self: start;
+		position: relative;
+		top: 1.375rem;
+		margin-right: 2rem;
+	}
+	.article__title{
+		font-size: 0.9rem;
+		font-family: "ShantellSans-Bold", sans-serif;
+		color: #0e3215;
+	}
+	.text{
+		font-size: 0.73rem;
+		font-family: "ShantellSans-Bold", sans-serif;
+		color: #1c0040;
+		line-height: 1.5rem;
+	}
+	.contact-box{
+		display: inline;
+		align-items: center;
+		width: 12.5rem;
+		height: 6.25rem;
+	}
+	.contact__list{
+		display: inline-block;
+		align-items: center;
+	}
+
+	.contact-img__link{
+		display: inline;
+	}
+	.img_icons{
+		display: inline-block;
+		background-color: transparent;
+		height: 6.25rem;
+		width: 6.25rem;
+
+	}
+.footer{
+	text-align: center;
+}
+.text-footer{
+	font-family: 'ShantellSans-Bold', sans-serif;
+	color: lightgreen;
+	font-size: 0.875rem;
+}
+.top{
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: #c0c0c0;
+	position: fixed;
+	cursor:pointer;
+	bottom: 1.875rem;
+	right: 1.875rem;
+	border-radius: 0.188rem;
+	text-align: center;
+	line-height: 2.375rem;
+}
+.top:hover {
+  background: #333;
+	content: '^';
+}
